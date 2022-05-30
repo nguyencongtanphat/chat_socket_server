@@ -10,7 +10,7 @@ const routes = require("./routes");
 
 app.use("/routes", routes);
 
-app.route("/check").get((req, res)=>{
+app.route("/").get((req, res)=>{
     return res.json("your app working fine");
 });
 
